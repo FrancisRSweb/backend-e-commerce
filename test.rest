@@ -1,0 +1,52 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/items
+
+###
+GET http://localhost:3000/items/item
+Content-Type: application/json
+
+{
+    "itemId":"5f87ebadbf386d24f40c286b"
+}
+
+###
+
+GET http://localhost:3000/img/pokemon-rojo.jpg
+
+###
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "title": "Pokemon Oro",
+    "price": 19.99,
+    "image": "pokemon-oro.jpg"
+}
+
+###
+POST http://localhost:3000/create-payment-intent
+Content-Type: application/json
+
+[
+    {
+        "id": "5f87ebadbf386d24f40c286b",
+        "qty": 2
+    }
+]
+
+###
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "items":[
+        {
+            "id": "5f87ebadbf386d24f40c286b",
+            "qty": 2
+        }
+    ]
+}
