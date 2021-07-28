@@ -17,9 +17,8 @@ For the final challenge I have created an e-commerce with a payment platform wit
 A step by step series of examples that tell you how to get a development env running.
 You may have to change the url of localhost
 
-clone this repo 
-```
-npm i -y
+1 - Agregue su archivo .env en el directorio raíz con las variables DB_URL y STRIPE_SK
 
-npm start
+2 - Npm i - para instalar los paquetes necesarios
 
+3 - Npm start - inicia el servidor
