@@ -10,6 +10,7 @@ For the final challenge I have created an e-commerce with a payment platform wit
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 - [Postman](https://learning.postman.com/docs/getting-started/introduction/) - Server Environment
+- [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_emea_spain_search_core_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624563&gclid=CjwKCAjwgISIBhBfEiwALE19SZiDPu0wvfoJzbWLAFl-IhMojnwSPWnkqE1maTcUD01_9MEuThJASBoC60cQAvD_BwE) - Server Environment
 
 ### Installing
 
